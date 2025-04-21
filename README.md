@@ -36,11 +36,11 @@ This project involves automating YouTube to check the About Page,Films, Music an
 
 ### 1. Clone the Repository
 ```bash
-    git clone 
+    git clone git@github.com:Vignesh1234567891010/saravana2018asd-ME_QA_XYOUTUBE_SEARCH.git
 ```
 
 ### 2.Change to directory
-    cd directory-name
+    cd saravana2018asd-ME_QA_XYOUTUBE_SEARCH
 
 ### 3.Run Build command to Build the dependencies
 ```bash
