@@ -26,12 +26,12 @@ public class ExcelReaderUtil {
             for (int i = rowNum; i <= totalRows; i++) {
                 Row row = sheet.getRow(i);
                 List<Object> columns = new ArrayList<>();
-                
+
                 // for (int j = row.getFirstCellNum(); j < findLastNonBlankColumn(row); j++) {
                 Cell cell = row.getCell(0);
                 columns.add(getCellValue(cell));
                 // }
-                
+
                 records.add(columns.toArray());
             }
 
@@ -82,7 +82,7 @@ public class ExcelReaderUtil {
         }
         return true;
     }
-    
+
     private static Object getCellValue(Cell cell) {
         switch (cell.getCellType()) {
             case STRING:
